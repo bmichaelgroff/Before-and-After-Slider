@@ -52,7 +52,7 @@ iframe {
   width: var(--position);
 }
 
-.slider-line {
+[fitr-slider="line"] {
   position: absolute;
   inset: 0;
   height: 100%;
@@ -62,7 +62,7 @@ iframe {
   pointer-events: none;
 }
 
-.slider-button {
+[fitr-slider="button"] {
   position: absolute;
   top: 50%;
   left: var(--position);
